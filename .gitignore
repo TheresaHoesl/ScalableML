@@ -1,0 +1,8 @@
+# all txt files in the data folder
+data/*.txt
+# no cache files from python
+*__pycache__
+# no cache files from dbs
+*.cache.*
+# no mistral model files
+*/mistral/
