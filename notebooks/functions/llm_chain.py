@@ -11,12 +11,12 @@ from functions.context_engineering import get_context_data
 import os
 from safetensors.torch import load_model, save_model
 
-def load_model(model_id: str = "teknium/OpenHermes-2.5-Mistral-7B") -> tuple:
+def load_model(model_id: str = "imiraoui/OpenHermes-2.5-Mistral-7B-sharded") -> tuple:
     """
     Load the LLM and its corresponding tokenizer.
 
     Args:
-        model_id (str, optional): Identifier for the pre-trained model. Defaults to "teknium/OpenHermes-2.5-Mistral-7B".
+        model_id (str, optional): Identifier for the pre-trained model. Defaults to "imiraoui/OpenHermes-2.5-Mistral-7B-sharded".
 
     Returns:
         tuple: A tuple containing the loaded model and tokenizer.
